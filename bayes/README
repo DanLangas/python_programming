@@ -19,7 +19,14 @@ py -3.7 -m pip install --user opencv-contrib-python
 
 >>> import cv2
 
+python -m pip install nltk
 
+>>> import nltk
+>>> nltk.download('punkt')
+>>> nltk.download('stopwords')
+>>> nltk.download('averaged_perceptron_tagger')
+>>> from nltk import punkt
+>>> from nltk.corpus import stopwords
 
 ===================
 

@@ -1,0 +1,33 @@
+Stylometry is the quantitative study of literary style through computational text analysis.
+It’s based on the idea that we all have a unique, consistent, and recognizable style to our writing.
+This includes our vocabulary, our use of punctuation, the average length of our sentences and words, and so on.
+
+===================
+
+Installing the Python Libraries
+
+python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
+
+
+>>> import numpy
+
+python -m pip install opencv-contrib-python    
+
+or
+
+py -3.7 -m pip install --user opencv-contrib-python
+
+>>> import cv2
+
+python -m pip install nltk
+
+>>> import nltk
+>>> nltk.download('punkt')
+>>> nltk.download('stopwords')
+>>> nltk.download('averaged_perceptron_tagger')
+>>> from nltk import punkt
+>>> from nltk.corpus import stopwords
+
+===================
+
+Project #2: The Hound, The War, and The Lost World
