@@ -1,2 +1,26 @@
 Bayes’ rule helps investigators determine the probability that something is true given new evidence.
 As the great French mathematician Laplace put it, “The probability of a cause—given an event—is proportional to the probability of the event—given its cause.”
+
+
+===================
+
+Installing the Python Libraries
+
+python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
+
+
+>>> import numpy
+
+python -m pip install opencv-contrib-python    
+
+or
+
+py -3.7 -m pip install --user opencv-contrib-python
+
+>>> import cv2
+
+
+
+===================
+
+bayes - Project #1: Search and Rescue - a Python program that uses Bayes’ rule to find a solitary fisherman who has gone missing off
