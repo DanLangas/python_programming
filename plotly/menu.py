@@ -2,7 +2,7 @@ import plotly
 import plotly.graph_objs as go 
 from datetime import datetime
 import pandas_datareader as web
-
+# source & docs at https://plotly.com/python/dropdowns/
 df = web.DataReader("aapl", 'google',
                     datetime(2015, 1, 1),
                     datetime(2016, 7, 1))
