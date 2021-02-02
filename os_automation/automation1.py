@@ -6,7 +6,7 @@
 #
 # Created:     02/02/2021
 # Copyright:   (c) dan 2021
-# Licence:     <your licence>
+# Licence:     
 #-------------------------------------------------------------------------------
 
 inport os
@@ -28,7 +28,7 @@ for file in os.listdir(data_location):
     os.rename(data_location + file, new_file_directory + file )
 
 string_to_find = 'Dan'
-directory_to_search = 'Docs/Processe'
+directory_to_search = 'Docs/Processed'
 dan_docs = []
 for file in os.listdir(directory_to_search):
     with open(directory_to_search + file) as f:
